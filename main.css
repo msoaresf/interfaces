@@ -1,0 +1,23 @@
+ body {
+
+            background-image:url(https://files.tecnoblog.net/meiobit/wp-content/uploads/2020/04/20200413street-figther-001.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .max-width {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        header {
+  display: block;
+}
+
+ .cc{
+
+background-color: #000000
+
+ }
