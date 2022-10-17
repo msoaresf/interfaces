@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OIE</title>
+</head>
+<body style="text-align: center;">
+
+<h1>OIIIE</h1>
+<button onclick="corfundo()">botão</button>
+<br/><br/><hr><br/><br/>
+
+<button onclick="fonte()">MUDA FONTE</button>
+<p id="pg">MEU DEUSSS COMO EU ODEIO SENTIRRRRRR!!!!!</p>
+
+
+</body>
+
+<script type="text/javascript">
+
+let fundo_branco =true;
+	function corfundo() {
+	 if (fundo_branco) {
+	 	document.bgColor='#1c7e85';
+	 	fundo_branco=false;
+	 }else{
+
+	 	document.bgColor='#FFFFFF';
+	 	fundo_branco=true;
+	 }}
+	
+	function fonte(){
+
+		let paragrafo = document.getElementById('pg');
+
+		if(paragrafo.style.fontFamily === 'Times New Roman'){
+			paragrafo.style.fontFamily = 'agency fb';
+		}
+		else{
+			paragrafo.style.fontFamily = 'Times New Roman';
+		}
+	}
+
+	
+
+
+</script>
+</html>
